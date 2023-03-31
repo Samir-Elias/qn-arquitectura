@@ -73,7 +73,7 @@ a{
 }
 #text-footer{
 margin-top: 50px;
-    float:left;
+    margin-left:-100px;
 }
 
 @media (max-width:800px){
