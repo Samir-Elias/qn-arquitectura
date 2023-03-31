@@ -142,7 +142,7 @@ margin-top: 50px;
         justify-content: center;        
     }
 }
-@media (max-width:1230px){
+@media (min-width:1230px){
 .card-img-top{
     width: 25rem;
     height: 35rem;
