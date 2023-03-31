@@ -44,7 +44,7 @@ margin-top: 50px;
         margin-top: 0;
         width: 300px;
     }
-    p{
+    a{
         display:none;
     }
     img{
@@ -73,13 +73,13 @@ margin-top: 50px;
         
     }
     p{
-        display:none;
+       width:370px;
     }
     #Galeriadeimg{
         margin-left: 120px;
     }
-    #a{
-        margin-left: 130px;
+    a{
+        display:none;
     }
     footer #text-footer {
         margin-left: 60px;
