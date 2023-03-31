@@ -20,55 +20,8 @@
 a{
     font-family: 'Tilt Neon', cursive;
 }
-/* .containerLogos{
-    
-   display: flex;
-   justify-content: space-between;
-   border-left: 2px solid grey;
-   padding:15px;           
-} */
- .iconos{
-    
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 42px;
-    margin-right: 50px;
-} 
-  .iconos{
-    transition: color 0.9s;
-    text-decoration: none;
-    color: black;
-} 
-   .iconos:hover{
-    color: #03a08680;
-  } 
-
-.card-group{
-    display: flex;
-}
-.card{
-   
-    margin-left: 10px;
-    margin-right: 10px;
-}   
-.card-img-top{
-    width: 350px;
-    height: 550px;
-    object-fit: cover;
-    opacity: 0.8;
-    padding: 10 px;
-}
-.card-img-top:hover{
-    transition: 0.5s ease;
-    filter: contrast(130%);
-    opacity: 1;
-    
-}
-#Galeriadeimg{
-    color: white;text-decoration: none; margin-left: 45%; font-size: x-large;
-}
-#a{
-    color: white;text-decoration: none; margin-left: 45%; font-size: x-large;
+body{
+    height:800px;
 }
 #text-footer{
 margin-left: -250px;
