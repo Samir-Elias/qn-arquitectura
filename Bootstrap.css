@@ -143,7 +143,7 @@ margin-top: 50px;
 }
 @media (max-width:950px){
 .card-img-top{
-    width: 13rem;
+    width: 10rem;
     height: 25rem;
     }
 }
