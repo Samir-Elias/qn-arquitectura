@@ -1,0 +1,165 @@
+#logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 22px;
+    border-radius: 10%;
+    mix-blend-mode:darken;
+    margin-bottom: 30px;
+    padding: 3px;
+    display: flex;
+}
+#h3{
+        margin-left: 110px;
+        margin-top: -83px;
+}
+#menudesp a:hover{
+   
+    transition: 0.3s;
+    background-color: orange;
+}
+a{
+    font-family: 'Tilt Neon', cursive;
+}
+/* .containerLogos{
+    
+   display: flex;
+   justify-content: space-between;
+   border-left: 2px solid grey;
+   padding:15px;           
+} */
+ .iconos{
+    
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 42px;
+    margin-right: 50px;
+} 
+  .iconos{
+    transition: color 0.9s;
+    text-decoration: none;
+    color: black;
+} 
+   .iconos:hover{
+    color: #03a08680;
+  } 
+
+.card-group{
+    display: flex;
+}
+.card{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+}   
+.card-img-top{
+    width: 350px;
+    height: 550px;
+    object-fit: cover;
+    opacity: 0.8;
+    padding: 10 px;
+}
+.card-img-top:hover{
+    transition: 0.5s ease;
+    filter: contrast(130%);
+    opacity: 1;
+    
+}
+#Galeriadeimg{
+    color: white;text-decoration: none; margin-left: 45%; font-size: x-large;
+}
+#a{
+    color: white;text-decoration: none; margin-left: 45%; font-size: x-large;
+}
+#text-footer{
+margin-left: -250px;
+margin-top: 50px;
+
+}
+
+@media (max-width:800px){
+    .card-group{
+        display:none;
+        
+    }
+    body{
+        width: 100%;
+    }
+    #Galeriadeimg{
+        width: 800px;
+    }
+    footer #text-footer {
+        margin-left: 0px;
+        margin-top: 0;
+        width: 300px;
+
+    }
+    div #proy{
+        margin-left: 180px;
+        
+    }
+    div #proy1{
+        float: right;
+        margin-right: 20px;
+    }
+    .containerLogos{
+        display: flex;
+        margin-bottom: -20px;
+    }
+}
+@media (max-width:450px){
+    #logo{
+        margin-bottom: 40px;
+    }
+    .card-group{
+        display:none;
+        
+    }
+    
+    body{
+        width: 450px;
+    }
+    #Galeriadeimg{
+        margin-left: 120px;
+    }
+    #a{
+        margin-left: 130px;
+    }
+    footer #text-footer {
+        margin-left: 60px;
+        margin-top: 0;
+        width: 300px;
+        float: left;
+    }
+    div #proy{
+        margin-left: 0px;        
+    }
+    div #proy1{
+        float: left;
+        margin-right: 50px;
+    }
+    .containerLogos{
+        display: flex;
+        margin-bottom: -30px;
+ 
+        justify-content: center;        
+    }
+}
+#Espacio{
+ 
+ width: 100%;
+}
+#Espacio1{
+ 
+    width: 100%;
+}
+
+.menu-calculadora {
+    border: 1px solid black;
+    width: 350px;
+    margin-left:800px;
+    margin-top: 200px;
+    margin-bottom: 100px;   
+        
+   
+  }
+  
