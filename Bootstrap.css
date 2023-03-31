@@ -53,8 +53,8 @@ a{
     margin-right: 10px;
 }   
 .card-img-top{
-    width: 20rem;
-    height: 35rem;
+    width: 16rem;
+    height: 27rem;
     object-fit:cover;
     opacity: 0.8;
     padding: 10px;
@@ -140,5 +140,11 @@ margin-top: 50px;
         margin-bottom: -30px;
  
         justify-content: center;        
+    }
+}
+@media (max-width:1230px){
+.card-img-top{
+    width: 25rem;
+    height: 35rem;
     }
 }
