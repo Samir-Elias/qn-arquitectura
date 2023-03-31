@@ -20,8 +20,9 @@
 a{
     font-family: 'Tilt Neon', cursive;
 }
-body{
-    height:800px;
+h1{
+    margin-top:300px;
+    margin-bottom:300px;
 }
 #text-footer{
 margin-left: -250px;
