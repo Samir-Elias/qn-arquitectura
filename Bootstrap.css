@@ -72,7 +72,6 @@ a{
     color: white;text-decoration: none; margin-left: 45%; font-size: x-large;
 }
 #text-footer{
-margin-left: -250px;
 margin-top: 50px;
 }
 
@@ -142,9 +141,15 @@ margin-top: 50px;
         justify-content: center;        
     }
 }
+@media (max-width:1100){
+.card-img-top{
+    width: 16rem;
+    height: 28rem;
+    }
+}
 @media (min-width:1230px){
 .card-img-top{
-    width: 25rem;
-    height: 35rem;
+    width: 20rem;
+    height: 33rem;
     }
 }
